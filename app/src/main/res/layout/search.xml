@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:src="@mipmap/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/app_label"
+        android:singleLine="true"
+        android:isScrollContainer="true"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:background="@color/colorPrimary"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="18sp">
+    </EditText>
+    <TextView
+        android:id = "@+id/noResultsFoundView"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text = "NO RESULT FOUND"
+        android:textColor="@color/colorAccentsS"
+        android:visibility = "gone" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="firstStrong"
+        android:textFilterEnabled="false"
+        tools:backgroundTint="@android:color/holo_blue_light" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_folder"
+            android:title=" HIV Research"/>
+        <item
+            android:id="@+id/ampath"
+            android:icon="@drawable/ic_folder"
+            android:title="AMPATH" />
+        <item
+           android:id="@+id/vl"
+           android:icon="@drawable/ic_folder"
+           android:title="NASCOP VL System" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_video"
+            android:title="Videos" />
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share  " />
+            <item
+                android:id="@+id/nav_call"
+                android:title="About Us" />
+
+        </menu>
+    </item>
+</menu>

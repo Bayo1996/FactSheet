@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+
+    <item android:title="@string/communicate">
+         <menu>
+             <item
+                 android:id="@+id/call"
+                 android:icon="@drawable/ic_phone_black_24dp"
+                 android:title="@string/call" />
+             <item
+                 android:id="@+id/nav_facebook"
+                 android:icon="@drawable/ic_textsms_black_24dp"
+                 android:title="@string/send_message" />
+             <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_mail_outline_black_24dp"
+                android:title="@string/email_us" />
+            </menu>
+       </item>
+    <item
+        android:id="@+id/nav"
+        android:title= "@string/appointment_reminders"
+        app:showAsAction="never" />
+
+     <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_action_help"
+        android:title= "@string/action_about"
+        app:showAsAction="never" />
+     <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/share"
+        app:showAsAction = "ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+</menu>

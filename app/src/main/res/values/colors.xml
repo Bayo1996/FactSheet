@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#dbdcd9</color>
+    <color name="colorPrimaryDark">#f0f2ea</color>
+    <color name="colorAccent">#ef4c5446</color>
+    <color name="colorAccents">#1c20fc</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+    <color name="colorAccentt">#0000ffff</color>
+    <color name="colorAccentts">#000000</color>
+    <color name="colorAccentsS">#e20719</color>
+    <color name="spash_background_color">#ffffff</color>
+    <color name="colorAccentss">#6e236b</color>
+    <color name="colorAccentsss">#7cdfe2</color>
+    <color name="colorAccens">#118626</color>
+    <color name="colorOrange">#222222</color>
+    <color name="colorLightGray">#a6abae</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorAccenss">#1d7a10</color>
+    <color name="colorAccensss"> #ffe4b5</color>
+    <color name="colorAccenssss">#6ff2e63b</color>
+    <color name="colorAccentsSS">#bf0918</color>
+    <color name="colorPrimaryDarks">#658c2e</color>
+    <color name="black">#90000000 </color>
+
+</resources>
+
+
+
+
+
+

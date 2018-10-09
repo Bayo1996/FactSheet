@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.HIVFactsheet">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FactSheet"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".homepage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="FactSheet"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".searchable" />
+            </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".searchable"
+            android:label="HIVFactSheet"
+            android:screenOrientation="portrait">
+            <!-- This intent-filter identifies this activity as "searchable" -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- This metadata entry provides further configuration details for searches -->
+            <!-- that are handled by this activity. -->
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".testing"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".transmission"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".you2"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".you8"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".you11"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main22Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main39Activity">
+        </activity>
+        <activity
+            android:name=".videos">
+        </activity>
+        <activity
+            android:name=".Main40Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".population"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".lubric"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".hivpo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".abst"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".you5"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".contra"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".sti"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".overview"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".hiv"
+            android:label="Hepatitis Vaccination"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".aids"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".pregnancy"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".causes"
+            android:label="Stages of HIV"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".you3"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".nutri"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".alcohol"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".smoke"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".immuni"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".sleep"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".liv"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".mental"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".sexual"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".sexualtrans"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".safer_sex"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PTCP"
+            android:screenOrientation="portrait">
+          </activity>
+
+        <activity
+            android:name=".support"
+            android:screenOrientation="portrait">
+          </activity>
+        <activity
+            android:name=".family"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TB"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TBtrat"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".childdis"
+            android:screenOrientation="portrait">
+         </activity>
+        <activity
+            android:name=".childhiv"
+            android:screenOrientation="portrait">
+         </activity>
+        <activity
+            android:name=".TBdiag"
+            android:screenOrientation="portrait">
+         </activity>
+        <activity
+            android:name=".TBprev"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity
+            android:name=".TBserv"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TBsymp"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TBtrans"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TBvac"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".conception"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".infant"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".tguideline"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".strat"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".effects"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".dinter"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".resist"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ctreat"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".prep"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".hivtransm"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".cd"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".risk"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".circumcisi"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".pep"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".change"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".policy"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".proce"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".outcome"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".adhere"
+            android:label="Adherence"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".relationships"
+            android:screenOrientation="portrait">
+         </activity>
+        <activity
+            android:name=".you4"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main41Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main46Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main47Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main48Activity"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main49Activity"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main42Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main43Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main44Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main45Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main23Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main24Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main28Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main29Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main9Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main10Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main11Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main12Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main13Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main14Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main15Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main17Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main18Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main19Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main31Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main32Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main33Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main35Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main36Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main37Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main38Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main50Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main54Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main53Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main51Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main26Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main27Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main3Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main4Activity"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main5Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main6Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main7Activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".consent"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".assault"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".sexuality"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".fp"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".gender"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".teenagepreg"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RH.asexuallity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RH.orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RH.queer"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RH.sexlife"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RH.RHContr"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RH.SexP"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity
+            android:name=".RH.Sexuallyhealth"
+            android:screenOrientation="portrait">
+            </activity>
+        <activity android:name=".Teange.asexuallity"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".Teange.sexlife"
+            android:screenOrientation="portrait">
+            </activity>
+        <activity android:name=".Teange.orientation"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".Teange.queer"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".Teange.RHContr"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".Teange.SexP"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".Teange.Sexuallyhealth"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".Teange.next"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".rehabilitation"
+            android:screenOrientation="portrait">
+           </activity>
+        <activity android:name=".mentals"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ampath"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".abortion"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Aimportance"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Adefination"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Aquiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Acompli"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Alaws"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Aunsafe"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menstruation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mendef"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menPhyEmo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mengirl"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenSynd"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Sraped"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Sdef"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SAssault"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShelpFrien"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Slaws"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Svalues"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SGBV"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".peereduc"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".pmental"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".preferral"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".pcauncelling"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".pment"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".pfs"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".plifeskills"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".phelp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".anatomy"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".aunty"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".iyapp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".rafiki"
+                   android:screenOrientation="portrait"/>
+        <activity android:name=".rafikiover" />
+        <activity android:name=".quality" />
+        <activity android:name=".service" />
+        <activity android:name=".one_to_one" />
+        <activity android:name=".std" />
+    </application>
+</manifest>
