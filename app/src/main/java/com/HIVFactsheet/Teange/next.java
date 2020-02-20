@@ -72,7 +72,7 @@ public class next extends AppCompatActivity implements  View.OnClickListener , A
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/whattodo.php");
+        mWebView.loadUrl("file:///android_asset/refers/whattodo.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

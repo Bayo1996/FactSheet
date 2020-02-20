@@ -73,7 +73,7 @@ public class pep extends AppCompatActivity implements View.OnClickListener , Ani
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/peps.php");
+        mWebView.loadUrl("file:///android_asset/refers/peps.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

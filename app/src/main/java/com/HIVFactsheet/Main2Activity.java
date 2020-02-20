@@ -70,7 +70,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/dddd.php");
+        mWebView.loadUrl("file:///android_asset/refers/dddd.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

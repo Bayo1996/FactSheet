@@ -72,7 +72,9 @@ public class queer extends AppCompatActivity implements  View.OnClickListener , 
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/queer.php");
+        mWebView.loadData("","text/html",null);
+
+        mWebView.loadUrl("file:///android_asset/refers/queer.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

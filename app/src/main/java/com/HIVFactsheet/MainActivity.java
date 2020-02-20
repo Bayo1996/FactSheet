@@ -333,7 +333,7 @@ import static android.R.id.message;
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setSupportMultipleWindows(true);
         webSettings.setGeolocationEnabled(true);
-        myWebView.loadUrl("file:///android_asset/refers/about/bayo.php");
+        myWebView.loadUrl("file:///android_asset/refers/about/bayo.html");
         dialog.show();
         fabLayout1= findViewById(R.id.fabLayout1);
         fabLayout2= findViewById(R.id.fabLayout2);

@@ -70,7 +70,7 @@ public class quality extends AppCompatActivity implements View.OnClickListener ,
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/quality.php");
+        mWebView.loadUrl("file:///android_asset/refers/quality.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

@@ -73,7 +73,7 @@ public class PTCP extends AppCompatActivity implements View.OnClickListener , An
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/mtcp.php");
+        mWebView.loadUrl("file:///android_asset/refers/mtcp.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

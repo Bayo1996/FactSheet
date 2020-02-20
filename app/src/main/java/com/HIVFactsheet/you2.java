@@ -51,7 +51,7 @@ public class you2 extends AppCompatActivity  implements Animation.AnimationListe
         handlers.postDelayed(new Runnable() {
             @Override
             public void run() {
-                page.loadUrl("file:///android_asset/refers/rrr.php");
+                page.loadUrl("file:///android_asset/refers/rrr.html");
             }
         }, 200);
         Handler handler = new Handler();

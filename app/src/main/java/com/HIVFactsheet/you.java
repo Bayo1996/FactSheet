@@ -105,10 +105,10 @@ public class you extends Fragment {
         Test.setText(row[stringIndex]);
 
         page.getSettings().setJavaScriptEnabled(true);
-        page.loadUrl("file:///android_asset/refers/homee.php");
+        page.loadUrl("file:///android_asset/refers/homee.html");
         page = root.findViewById(R.id.weview);
         page.getSettings().setJavaScriptEnabled(true);
-        page.loadUrl("file:///android_asset/refers/home.php");
+        page.loadUrl("file:///android_asset/refers/home.html");
 //        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 //        builder.setTitle("\t\t\tTalk to a Counselor");
 //        builder.setItems(new CharSequence[]

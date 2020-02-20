@@ -57,7 +57,7 @@ public class iyapp extends AppCompatActivity implements  View.OnClickListener , 
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/about/iyapp.php");
+        mWebView.loadUrl("file:///android_asset/refers/about/iyapp.html");
         nextButton = findViewById(R.id.nextButto);
         closeButton = findViewById(R.id.closeButto);
         findBox = findViewById(R.id.findBo);

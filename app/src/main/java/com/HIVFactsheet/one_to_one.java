@@ -70,7 +70,7 @@ public class one_to_one extends AppCompatActivity implements View.OnClickListene
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/hotline.php");
+        mWebView.loadUrl("file:///android_asset/refers/hotline.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

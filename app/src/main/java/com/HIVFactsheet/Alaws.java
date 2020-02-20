@@ -73,7 +73,7 @@ public class Alaws extends AppCompatActivity implements  View.OnClickListener , 
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/abortlaws.php");
+        mWebView.loadUrl("file:///android_asset/refers/abortlaws.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

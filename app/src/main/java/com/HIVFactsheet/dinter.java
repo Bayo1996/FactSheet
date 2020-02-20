@@ -72,7 +72,7 @@ public class dinter extends AppCompatActivity implements  View.OnClickListener ,
         animSideDown.setAnimationListener(this);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/druginter.php");
+        mWebView.loadUrl("file:///android_asset/refers/druginter.html");
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);

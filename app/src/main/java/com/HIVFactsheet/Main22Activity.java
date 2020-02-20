@@ -69,7 +69,7 @@ public class Main22Activity extends AppCompatActivity implements View.OnClickLis
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/ttt.php");
+        mWebView.loadUrl("file:///android_asset/refers/ttt.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

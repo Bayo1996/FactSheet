@@ -72,7 +72,7 @@ public class Main46Activity extends AppCompatActivity implements View.OnClickLis
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls(true);
         mWebView.getSettings().setDisplayZoomControls(false);
-        mWebView.loadUrl("file:///android_asset/refers/cure.php");
+        mWebView.loadUrl("file:///android_asset/refers/cure.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener() {
