@@ -69,7 +69,7 @@ public class Main26Activity extends AppCompatActivity implements  View.OnClickLi
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/sex.php");
+        mWebView.loadUrl("file:///android_asset/refers/sex.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

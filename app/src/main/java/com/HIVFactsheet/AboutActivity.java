@@ -70,7 +70,8 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/about/sa.php");
+        //mWebView.loadData("","text/html",null);
+        mWebView.loadUrl("file:///android_asset/refers/about/sa.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

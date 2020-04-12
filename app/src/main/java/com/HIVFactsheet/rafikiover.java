@@ -45,7 +45,7 @@ public class rafikiover extends AppCompatActivity implements Animation.Animation
         handlers.postDelayed(new Runnable() {
             @Override
             public void run() {
-                mWebView.loadUrl("file:///android_asset/refers/about/yu.php");
+                mWebView.loadUrl("file:///android_asset/refers/about/yu.html");
             }
         }, 200);
 

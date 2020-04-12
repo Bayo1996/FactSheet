@@ -55,11 +55,11 @@ public class you4 extends AppCompatActivity implements   Animation.AnimationList
         handlers.postDelayed(new Runnable() {
             @Override
             public void run() {
-                page.loadUrl("file:///android_asset/refers/teansoci.php");
+                page.loadUrl("file:///android_asset/refers/teansoci.html");
             }
         }, 200);
 
-        page.loadUrl("file:///android_asset/refers/teansoci.php");
+        page.loadUrl("file:///android_asset/refers/teansoci.html");
         Intent intents = new Intent(this, Main35Activity.class);
         Button butto = findViewById(R.id.button30);
         butto.setOnClickListener(new View.OnClickListener() {

@@ -52,7 +52,7 @@ private AlphaAnimation buttonClick = new AlphaAnimation(1F,0.8F);
         handlers.postDelayed(new Runnable() {
             @Override
             public void run() {
-                page.loadUrl("file:///android_asset/refers/hos.php");
+                page.loadUrl("file:///android_asset/refers/hos.html");
             }
         }, 200);
 

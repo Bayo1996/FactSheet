@@ -73,7 +73,7 @@ public class prep extends AppCompatActivity implements  View.OnClickListener , A
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/preps.php");
+        mWebView.loadUrl("file:///android_asset/refers/preps.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

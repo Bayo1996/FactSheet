@@ -59,7 +59,7 @@ public class TBprev extends AppCompatActivity implements View.OnClickListener , 
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/public.php");
+        mWebView.loadUrl("file:///android_asset/refers/public.html");
         findBox = findViewById(R.id.findBo);
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

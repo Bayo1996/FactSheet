@@ -70,7 +70,7 @@ private LinearLayout container;
         animSideDown.setAnimationListener(this);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/helppeer.php");
+        mWebView.loadUrl("file:///android_asset/refers/helppeer.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

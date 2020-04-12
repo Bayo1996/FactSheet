@@ -46,7 +46,7 @@ public class Main47Activity extends AppCompatActivity implements  Animation.Anim
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/ry.php");
+        mWebView.loadUrl("file:///android_asset/refers/ry.html");
         Button bn = findViewById(R.id.button49);
         bn.setOnClickListener(new View.OnClickListener() {
             @Override

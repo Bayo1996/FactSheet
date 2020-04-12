@@ -49,7 +49,7 @@ public class Main49Activity extends AppCompatActivity implements View.OnClickLis
         findBox = findViewById(R.id.findBo);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/rt.php");
+        mWebView.loadUrl("file:///android_asset/refers/rt.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

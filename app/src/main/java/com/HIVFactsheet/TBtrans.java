@@ -73,7 +73,7 @@ public class TBtrans extends AppCompatActivity implements View.OnClickListener ,
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/private.php");
+        mWebView.loadUrl("file:///android_asset/refers/private.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

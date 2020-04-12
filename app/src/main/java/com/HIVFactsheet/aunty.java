@@ -58,7 +58,7 @@ public class aunty extends AppCompatActivity implements  View.OnClickListener , 
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/aunty.php");
+        mWebView.loadUrl("file:///android_asset/refers/aunty.html");
         nextButton = findViewById(R.id.nextButto);
         closeButton = findViewById(R.id.closeButto);
         findBox = findViewById(R.id.findBo);

@@ -73,7 +73,7 @@ public class Aimportance extends AppCompatActivity implements View.OnClickListen
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls( true );
         mWebView.getSettings().setDisplayZoomControls( false);
-        mWebView.loadUrl("file:///android_asset/refers/abortion.php");
+        mWebView.loadUrl("file:///android_asset/refers/abortion.html");
         mWebView.setWebViewClient(new WebViewClient());
         findBox.setSingleLine(true);
         findBox.setOnKeyListener(new View.OnKeyListener()

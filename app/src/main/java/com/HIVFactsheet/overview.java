@@ -47,7 +47,7 @@ public class overview extends AppCompatActivity implements Animation.AnimationLi
         handlers.postDelayed(new Runnable() {
             @Override
             public void run() {
-                mWebView.loadUrl("file:///android_asset/refers/whatishiv.php");
+                mWebView.loadUrl("file:///android_asset/refers/whatishiv.html");
             }
         }, 200);
 
