@@ -652,5 +652,6 @@
         <activity android:name=".service" />
         <activity android:name=".one_to_one" />
         <activity android:name=".std" />
+        <activity android:name=".PatientLitiracy" />
     </application>
 </manifest>

@@ -224,6 +224,18 @@ import static android.R.id.message;
                         dialog.dismiss();
                     }
                 });
+
+        mcardView = dialog.findViewById(R.id.card_ucrs);
+        mcardView.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        v.startAnimation(buttonClick);
+//                        mViewPager.setCurrentItem(3);
+                        startActivity(new Intent(MainActivity.this, PatientLitiracy.class));
+                        dialog.dismiss();
+                    }
+                });
         Button mcarView = dialog.findViewById(R.id.button142);
         mcarView.setOnClickListener(
                 new View.OnClickListener() {
@@ -233,6 +245,7 @@ import static android.R.id.message;
                         startActivity(new Intent(MainActivity.this, Main39Activity.class));
                     }
                 });
+
         mcardView = dialog.findViewById(R.id.cardff);
         mcardView.setOnClickListener(
                 new View.OnClickListener() {
