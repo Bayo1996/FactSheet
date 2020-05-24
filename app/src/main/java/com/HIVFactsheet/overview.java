@@ -3,9 +3,9 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutCompat;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -13,11 +13,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.webkit.WebView;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import static com.HIVFactsheet.you3.page;
 
 public class overview extends AppCompatActivity implements Animation.AnimationListener {
     private AlphaAnimation buttonClick = new AlphaAnimation(1F,0.8F);

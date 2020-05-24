@@ -1,15 +1,12 @@
 package com.HIVFactsheet;
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.CardView;
+import androidx.fragment.app.Fragment;
+import androidx.cardview.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
-import android.webkit.WebView;
-import android.widget.Button;
 
 /**
  * Created by Brian on 7/2/2017.

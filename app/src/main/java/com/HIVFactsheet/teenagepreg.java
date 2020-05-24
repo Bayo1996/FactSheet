@@ -1,31 +1,18 @@
 package com.HIVFactsheet;
-import android.annotation.SuppressLint;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutCompat;
-import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuInflater;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.appcompat.widget.Toolbar;
+
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.HIVFactsheet.Teange.RHContr;
@@ -36,8 +23,6 @@ import com.HIVFactsheet.Teange.next;
 import com.HIVFactsheet.Teange.orientation;
 import com.HIVFactsheet.Teange.queer;
 import com.HIVFactsheet.Teange.sexlife;
-
-import java.lang.reflect.Method;
 
 
 public class teenagepreg extends AppCompatActivity implements   Animation.AnimationListener {
